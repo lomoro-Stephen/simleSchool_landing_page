@@ -1,0 +1,452 @@
+/* media queries */
+@media only screen and (max-width: 482px){
+     
+    header{
+        width: 100%;
+        height: 100vh;
+    }
+    .nav-links{
+        display: none;
+
+    }
+    .logo-wrap img{
+        width: 130px;
+        height: 30px;
+    }
+    .hero-text{
+        margin-top: 80px;
+    }
+    .menu-wrap{
+        display: block;
+    }
+    .hero-title{
+        font-size: 2.5rem;
+    }
+    .hero-cards{
+        margin-top: 20px;
+        gap: 20px;
+    }
+    .hero-card img{
+        width: 60px;
+        height: 60px;
+    }
+    .hero-card p, .hero-card h5{
+        font-size: 0.6rem;
+    }
+    .banner{
+        height: fit-content;
+    }
+
+    .banner-wrapper{
+        flex-direction: column;
+        padding: 80px 0;
+        text-align: center;
+    }
+    .banner-wrapper{
+        display: flex;
+        align-items: center;
+        
+    }
+    .tutorial-cards{
+        flex-direction: column;
+    }
+    .tutorial-card{
+        border: 1px solid rgb(216, 216, 216);
+        padding: 10px;
+    }
+    .membership-cards{
+        flex-direction: column;
+    }
+    .membership-card{
+        border: 1px solid rgba(216, 216, 216, 0.021);
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    .questions{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .question{
+        border: 1px solid rgba(110, 110, 110, 0.055);
+        padding: 10px;
+        border-radius: 10px;
+    }
+    .social-links{
+        width: 20px;
+        height: 20px;
+    }
+    .social-links i{
+        font-size: 10px;
+    }
+
+    .faq-title{
+        font-size: 3rem;
+        font-weight: 200;
+        padding-top: 40px;
+    }
+
+    .questions{
+        padding: 10px 0 100px 0;
+    }
+
+    .footer-log img{
+        width: 130px;
+        height: 30px;
+    }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (min-width: 482px) {
+    
+    header{
+        width: 100%;
+        height: 100vh;
+    }
+    .nav-links{
+        display: none;
+
+    }
+    .logo-wrap img{
+        width: 130px;
+        height: 30px;
+    }
+    .hero-text{
+        margin-top: 80px;
+    }
+    .menu-wrap{
+        display: block;
+    }
+    .hero-title{
+        font-size: 4rem;
+    }
+    .hero-cards{
+        margin-top: 20px;
+        gap: 20px;
+    }
+    .hero-card img{
+        width: 60px;
+        height: 60px;
+    }
+    .hero-card p, .hero-card h5{
+        font-size: 0.6rem;
+    }
+    .banner{
+        height: fit-content;
+    }
+
+    .banner-wrapper{
+        flex-direction: column;
+        padding: 80px 0;
+        text-align: center;
+    }
+    .banner-wrapper{
+        display: flex;
+        align-items: center;
+        
+    }
+    .tutorial-cards{
+        flex-direction: column;
+    }
+    .tutorial-card{
+        border: 1px solid rgb(216, 216, 216);
+        padding: 10px;
+    }
+    .membership-cards{
+        flex-direction: column;
+    }
+    .membership-card{
+        border: 1px solid rgba(216, 216, 216, 0.021);
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    .questions{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .question{
+        border: 1px solid rgba(110, 110, 110, 0.055);
+        padding: 10px;
+        border-radius: 10px;
+    }
+    .social-links{
+        width: 20px;
+        height: 20px;
+    }
+    .social-links i{
+        font-size: 10px;
+    }
+
+    .faq-title{
+        font-size: 3rem;
+        font-weight: 200;
+        padding-top: 40px;
+    }
+
+    .questions{
+        padding: 10px 0 100px 0;
+    }
+
+    .footer-log img{
+        width: 130px;
+        height: 30px;
+    }
+} 
+/* Small devices (portrait tablets and large phones, 600px and up)*/
+@media only screen and (min-width: 600px) {
+
+     
+    header{
+        width: 100%;
+        height: 100vh;
+    }
+    .nav-links{
+        display: none;
+
+    }
+    .logo-wrap img{
+        width: 130px;
+        height: 30px;
+    }
+    .hero-text{
+        margin-top: 80px;
+    }
+    .menu-wrap{
+        display: block;
+    }
+    .hero-title{
+        font-size: 5rem;
+    }
+    .hero-cards{
+        margin-top: 20px;
+        gap: 20px;
+    }
+    .hero-card img{
+        width: 60px;
+        height: 60px;
+    }
+    .hero-card p, .hero-card h5{
+        font-size: 0.6rem;
+    }
+    .banner{
+        height: fit-content;
+    }
+
+    .banner-wrapper{
+        flex-direction: column;
+        padding: 80px 0;
+        text-align: center;
+    }
+    .banner-wrapper{
+        display: flex;
+        align-items: center;
+        
+    }
+    .tutorial-cards{
+        flex-direction: column;
+    }
+    .tutorial-card{
+        border: 1px solid rgb(216, 216, 216);
+        padding: 10px;
+    }
+    .membership-cards{
+        flex-direction: column;
+    }
+    .membership-card{
+        border: 1px solid rgba(216, 216, 216, 0.021);
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    .questions{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .question{
+        border: 1px solid rgba(110, 110, 110, 0.055);
+        padding: 10px;
+        border-radius: 10px;
+    }
+    .social-links{
+        width: 20px;
+        height: 20px;
+    }
+    .social-links i{
+        font-size: 10px;
+    }
+
+    .faq-title{
+        font-size: 3rem;
+        font-weight: 200;
+        padding-top: 40px;
+    }
+
+    .questions{
+        padding: 10px 0 100px 0;
+    }
+
+    .footer-log img{
+        width: 130px;
+        height: 30px;
+    }
+
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .nav-links{
+        display: flex;
+
+    }
+    .menu-wrap{
+        display: none;
+    }
+    .hero-title{
+        font-size: 6rem;
+    }
+
+    .hero-cards{
+        margin-top: 20px;
+        gap: 20px;
+    }
+    .hero-card img{
+        width: 60px;
+        height: 60px;
+    }
+    .hero-card p, .hero-card h5{
+        font-size: 0.6rem;
+    }
+    .banner{
+        height: fit-content;
+    }
+
+    .banner-wrapper{
+        flex-direction: column;
+        padding: 80px 0;
+        text-align: center;
+    }
+    .banner-wrapper{
+        display: flex;
+        align-items: center;
+        
+    }
+    .tutorial-cards{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .membership-cards{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+    .membership-card{
+        border: 1px solid rgba(216, 216, 216, 0.021);
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    .questions{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .question{
+        border: 1px solid rgba(110, 110, 110, 0.055);
+        padding: 10px;
+        border-radius: 10px;
+    }
+    .social-links{
+        width: 20px;
+        height: 20px;
+    }
+    .social-links i{
+        font-size: 10px;
+    }
+
+    .faq-title{
+        font-size: 3rem;
+        font-weight: 200;
+        padding-top: 40px;
+    }
+
+    .questions{
+        padding: 10px 0 100px 0;
+    }
+
+    .footer-log img{
+        width: 130px;
+        height: 30px;
+    }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+     
+    header{
+        width: 100%;
+        height: 150vh;
+    }
+    .nav-links{
+        display: flex;
+    }
+    .hero-text{
+        margin-top: 150px;
+    }
+    .menu-wrap{
+        display: none;
+    }
+    .hero-title{
+        font-size: 8rem;
+    }
+    .hero-cards{
+        margin-top: 120px;
+        gap: 2px;
+    }
+    .hero-card img{
+        width: 130px;
+    height: 130px;
+    }
+    .hero-card p, .hero-card h5{
+        font-size: 0.8rem;
+    }
+    .banner-wrapper{
+        flex-direction: row;
+        gap: 30px;
+        text-align: start;
+    }
+    .banner-wrapper div p{
+        width: 100%;
+        margin: 0;
+    }
+    .tutorial-cards{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .membership-cards{
+        flex-direction: row;
+    }
+    .questions{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .social-links{
+        width: 30px;
+        height: 30px;
+    }
+    .social-links i{
+        font-size: 14px;
+    }
+
+    .faq-title{
+        font-size: 5rem;
+        font-weight: 200;
+        padding-top: 80px;
+    }
+
+    .questions{
+        padding: 10px 0 100px 0;
+    }
+
+    .footer-log img{
+        width: 130px;
+        height: 30px;
+    }
+
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}
